@@ -2589,3 +2589,335 @@ color: #f06d06;
   /* symbol for "collapsed" panels */
   content: "\f067"; 
 }
+
+
+/* product cards */
+
+/* .card {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.star-rating {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: #FFD700;
+}
+
+.btn-view-more {
+  background-color: #28A745;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #218838;
+}
+
+.btn-buy {
+  background-color: #28A745;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #218838;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  margin-bottom: 20px;
+}
+
+.feature-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feature-table th,
+.feature-table td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.feature-table .checkmark {
+  color: #28A745;
+}
+
+.feature-table .cross {
+  color: #DC3545;
+}
+
+.product-carousel {
+  margin-top: 20px;
+}
+
+.product-carousel .carousel-item img {
+  width: 150px;
+  height: 200px;
+}
+.btn-prod{
+  background: #7ac400 !important;
+  border-radius: 18px !important;
+  padding: 5px 18px !important;
+} */
+
+/* my css for product card */
+/* .prod-card-img{
+  border: 2px solid black;
+  margin: 10px;
+}
+.prod-card-desc{
+
+}
+.prod-card-car{
+
+} */
+
+.card {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.star-rating {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: #FFD700;
+}
+
+.btn-view-more {
+  background-color: #28A745;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-view-more:hover {
+  background-color: #218838;
+}
+
+.btn-buy {
+  background-color: #28A745;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-buy:hover {
+  background-color: #218838;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  margin-bottom: 20px;
+}
+
+.feature-table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feature-table th,
+.feature-table td {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.feature-table .checkmark {
+  color: #28A745;
+}
+
+.feature-table .cross {
+  color: #DC3545;
+}
+
+.product-carousel {
+  margin-top: 20px;
+}
+
+.product-carousel .carousel-item img {
+  max-height: 300px;
+  object-fit: contain;
+}
+.btn-prod{
+  background-color:#28A745 !important;
+  margin: 3px;
+}
+
+.pcontainer {
+  display: flex;
+}
+
+.pbox {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.myprod{
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+/* .checked {
+  color: orange;
+} */
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle {
+  float: left;
+  width: 70%;
+  margin-top: 10px;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  /* Hide the right column on small screens */
+  .right {
+    display: none;
+  }
+}
+
+.user-rating{
+  margin-top: 10px;
+}
+
+.mod-diag{
+  position: absolute;
+    top: 100%;
+}
+@media screen and (max-width: 992px) {
+  .mod-diag{
+    position: absolute;
+      top: 100%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .mod-diag{
+    position: absolute;
+      top: 135%;
+  }
+}
+
+.mod-img{
+  object-fit: contain;
+}
